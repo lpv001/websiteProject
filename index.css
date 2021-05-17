@@ -30,7 +30,7 @@ a{
 
 
 .filterPage{
-    width:300px;
+    width:840px;
 }
 .filter{
     height:200px;
@@ -38,6 +38,7 @@ a{
     background-color: rgb(15,15,15);
     float:left;
     margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 
