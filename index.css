@@ -4,43 +4,140 @@
     color: hsl(0, 0%, 100%);
     height: 50px;  
     width: 100%;
-    margin-top: -8px;
-    margin-left: -8px;
+    margin: -8px -8px;
     }
 body{
     background-color: rgb(40,40,40);
 }
-li{
-    float: left;
-    display: block;
+
+
+
+.header > li{
+  float: left;
+  list-style: none;
 }
-a{
+.header > li >a{
+    display: inline-flex;
+    text-align: center;
+    padding: 16px 16px;
     text-decoration: none;
+    color: cornsilk; 
 }
-.myInput{
+.header > li>a:hover:not(.active){
+    background-color: rgb(40,40,40);
+    color: white ;
+}
+.active{
+    background-color: rgb(43, 3, 151);
+}
+#search>input{ 
+    height: 40px;
     float: right;
-    height: 43px;
-    width: 125px;
-    margin-top: -17px;
-    font-size: 20px;  
+    bottom: -2px;
+    background-color: rgb(40,40,40)
 }
-
-
-
-
+#search>#inputColor{
+    color: whitesmoke;
+}
 
 .filterPage{
-    width:840px;
+    width:70%;
+    height: 700px;
 }
-.filter{
-    height:200px;
-    width: 180px;
+.filterPage>div{
+    height:250px;
+    width: 23%;
     background-color: rgb(15,15,15);
     float:left;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.filterPage>div>div{
+    height:30px;
+    width: 100%;
+    background-color: rgb(243, 234, 234);
+    bottom: 0;
+    display: block;
+    margin-top: 220px;
+    text-align: center;
+}
+#sponser{
+    height: 140px;
+    background-color: white;
+    width: 98.75vw;
+    margin-left: -8px;
+    margin-top: -11px;
+}
+#sponser>p{
+    text-align: center;
+    height: 100%;
+    padding: 65px 10px;
+}
+.sponser_ads{
+    height: 500px;
+    width: 15% ;
+    background-color: whitesmoke;
+    display: inline-block;
+    top: 243px;
+    right: 1px;
+    position: absolute;
+    z-index: -1;
+
+}
+.sponser_ads>p{
+    text-align: center;
+}
+
+#inputColor1{
+    color: whitesmoke;
+    outline: none;
+}
+
+footer{ 
+    height: 300px;  
+}
+footer>p{
+    text-align: center;
+    padding: 200px;
+    background-color: rgb(104, 103, 93);
 }
 
 
 
 
+
+
+
+
+.filterSmallPage{
+    width:70%;
+    height: 700px;
+}
+.filterSmallPage>div{
+    height:700px;
+    width: 70%;
+    background-color: rgb(15,15,15);
+    float:left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.container{
+    background-color:rgb(40,40,40) ;
+    width:50%;
+    border: 2px solid rgb(15, 15, 15);
+    padding: 15px 10px;
+    margin-top: 10px;
+}
+.container >h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+textarea{
+    width:100%;
+    height:20px;
+    border: none;
+    border-bottom: 2px solid rgb(15, 15, 15);
+    outline: none;
+    background-color: rgb(40,40,40);
+    color:whitesmoke;
+}
