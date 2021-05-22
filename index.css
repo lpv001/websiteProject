@@ -52,13 +52,16 @@ body > ul {
     margin-bottom: 2%;
 }
 .filterPage>div>div{
-    height:30px;
+    height:12%;
     width: 100%;
     background-color: rgb(243, 234, 234);
-    bottom: 0;
     display: block;
-    margin-top: 220px;
+    position: static;
     text-align: center;
+}
+.filterPage>div>#h{
+    height: 80%;
+    width: 100%;
 }
 #sponser{
     height: 140px;
@@ -137,3 +140,5 @@ footer>p{
     border-color: rgb(15, 15, 15);    
     border-width: 0.1mm;  
 }
+
+
