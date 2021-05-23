@@ -12,9 +12,7 @@ body{
     margin-left: 0px;
     margin-right: 0px;
 }
-body > ul {
-    color: whitesmoke;
-}
+
 .header >div> li{
   float: left;
   list-style: none;}
@@ -105,24 +103,33 @@ body > ul {
 footer{ 
     height: 300px;  
     text-align: center;
-    list-style: none;
+    background-color: black;
 }
-footer > li> h1 > a {
+footer > li{
     text-decoration: none;
-    color: rgb(243, 234, 234);
-    -webkit-transition: color 1s;
-    transition: color 1s;
+    list-style: none;
+    
+}footer > li>h1>a{
+    text-decoration: none;
+    color: rgb(112, 111, 111);
+
 }
 footer > li>h2 > a {
     text-decoration: none;
-    color: rgb(243, 234, 234);
+    color: rgb(112, 111, 111);
 }
 footer > li>h3 > a {
     text-decoration: none;
-    color: rgb(243, 234, 234);
+    color: rgb(112, 111, 111);
 }
-footer > li:hover{
-    color: blueviolet;
+footer > li>h1>a:hover{
+    color: white;
+}
+footer > li>h3>a:hover{
+    color: white;
+}
+footer > li>h2>a:hover{
+    color: white;
 }
 
 .filterSmallPage{
@@ -201,4 +208,4 @@ footer > li:hover{
             
         }
     }
-
+  

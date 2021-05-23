@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Gif pets </title>
         <link rel="stylesheet" href="index.css">    
+        <link rel="stylesheet" href="index1.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="index.js"></script>  
     </head>
 
     <body>
-            <nav class="header"> 
-                <div id="navbar-nav ">
-                    <li >  <a href="index.html" class=" nav-act active" >Home</a></li>
+            <nav class="header "> 
+                <div id="myTopDown" class="_0hi">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="_con1">
+                    <li > <a href="cute.html" class=" nav-act">Cute</a></li>
+                    <li  > <a href="sweet.html" class=" nav-act" >Sweet</a></li>
+                    <li > <a href="sad.html" class=" nav-act" >Sad</a></li>
+                    <li > <a href="angry.html" class=" nav-act" >Angry</a></li>
+                    <input type="text" style="background-color: white ; width: 90%; height: 45px; margin-left: 8px; border-radius: 8px; border: 1px solid;" placeholder="Find something here......." >
+                </div>
+                </div>
+                <div class="topUp">
+                    <div>
+                        <li >  <a href="index.html" class=" nav-act" ><i class="fa fa-home" style="margin-left:-9px ; padding-right: 2px; " > </i>  Home</a></li>
+                    </div>
+                    <div>
+                       <i class="fa fa-bars right_" onclick="openNav()" > Menu</i>
+                    </div>
+
+                </div>
+                <div id="navbar-nav" class="clear"> 
+                    <li >  <a href="index.html" class=" nav-act active" ><i class="fa fa-home" style="margin-left:-15px ; padding-right: 5px; " > </i>  Home</a></li>
                     <li > <a href="cute.html" class=" nav-act">Cute</a></li>
                     <li  > <a href="sweet.html" class=" nav-act" >Sweet</a></li>
                     <li > <a href="sad.html" class=" nav-act" >Sad</a></li>
@@ -22,58 +43,67 @@
                     <input type="text"  placeholder="Find something here......." >
                 </div>
             </nav>
-        </br></br>
+        </br></br><script>     function openNav() {
+            document.getElementById("myTopDown").style.height = "200px";
+          }
+          
+          function closeNav() {
+            document.getElementById("myTopDown").style.width = "0%";
+          }
+ </script>
+        
         <div id="sponser"> <p> Advertisement</p></div>
+   
         </br></br></br>
 
 
         <div class="filterPage">
             <div >
-                <img src="home/giphy.gif" id='h'>
+                <img src="home/giphy.gif" alt="home/giphy.gif">
                 <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy1.gif" id='h'>
+                <img src="home/giphy1.gif" alt="home/giphy1.gif" >
                 <div> <p> I'm a good student</p></div>
             </div>
             <div >
-                <img src="home/giphy2.gif" id='h'>
+                <img src="home/giphy2.gif" alt="home/giphy2.gif" >
                 <div> <p> Come on</p></div>
             </div>
             <div >
-                <img src="home/giphy3.gif" id='h'>
+                <img src="home/giphy3.gif"alt="home/giphy3.gif" >
                 <div> <p> WTF!</p></div>
             </div>
             <div >
-                <img src="home/giphy4.gif" id='h'>
+                <img src="home/giphy4.gif" alt="home/giphy4.gif" >
                 <div> <p> Don't make noise!</p></div>
             </div>
             <div >
-                <img src="home/giphy5.gif" id='h'>
+                <img src="home/giphy5.gif " alt="home/giphy5.gif" >
                 <div> <p> Come and study</p></div>
             </div>
             <div >
-                <img src="home/giphy6.gif" id='h'>
+                <img src="home/giphy6.gif" alt="home/giphy6.gif" >
                 <div> <p> Snowing!</p></div>
             </div>
             <div >
-                <img src="home/giphy7.gif" id='h'>
+                <img src="home/giphy7.gif" alt="home/giphy7.gif"  >
                 <div> <p> Hello world</p></div>
             </div>
             <div >
-                <img src="home/giphy8.gif" id='h'>
+                <img src="home/giphy8.gif" alt="home/giphy8.gif" >
                 <div> <p> my fav snacks</p></div>
             </div>
             <div >
-                <img src="home/giphy9.gif" id='h'>
+                <img src="home/giphy9.gif" alt="home/giphy9.gif" >
                 <div> <p> my bro and sis</p></div>
             </div>
             <div >
-                <img src="home/giphy10.gif" id='h'>
+                <img src="home/giphy10.gif" alt="home/giphy10.gif" >
                 <div> <p> i begs u</p></div>
             </div>
             <div >
-                <img src="home/giphy11.gif" id='h'>
+                <img src="home/giphy11.gif" alt="home/giphy11.gif" >
                 <div> <p> play with me/p></div>
             </div>
         </div>

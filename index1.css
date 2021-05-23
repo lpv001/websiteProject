@@ -1,0 +1,91 @@
+.topUp{
+    display: none;
+    height: 50px;
+}
+@media screen and (min-width: 550px) {
+    
+
+._0hi{
+    display: none;
+}
+._con1{
+    display: none;
+}
+.closebtn{
+    display: none;
+}}
+@media only screen and (max-width:550px) {
+.clear{
+    display: none;
+
+}
+
+.topUp{
+    display: block;
+}.topUp >div> li{
+    height: 45px;
+    float: left;
+    list-style: none;
+margin-top: 14px;}
+  
+  .topUp >div> li >a{
+      text-align: center;
+      padding: 14px 9px;
+      font-size: 15px;
+      text-decoration: none;
+      color: cornsilk; 
+  }
+  .header{
+      height: 45px;
+  }
+  .right_{
+      float: right;
+      margin-top: 14px;
+      margin-right:2px ;
+      font-size: 15px;
+      
+  }
+  ._0hi {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+   margin-top: 0;
+    margin-left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.3s;
+   } 
+  ._con1{
+      margin-top: 40px;
+  }
+  ._con1>li{
+      list-style: none;
+  }
+  ._con1>li>a{
+      list-style: none;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      padding: 5px;
+      display: block;
+      font-size: 15px;
+      transition: 0.3s;
+
+  }
+  ._0hi>a{
+      text-decoration: none;
+      color: white;
+      margin-top: -15px;
+      margin-right: 0px;
+  }
+  ._0hi .closebtn {
+    position: absolute;
+    font-size: 60px;
+  }
+  ._con1>li:hover{
+      background-color: rgb(53, 53, 56);
+    }
+  
+}
