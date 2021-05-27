@@ -13,14 +13,14 @@
 
     <body>
             <nav class="header "> 
-                <div id="myTopDown" class="_0hi">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div id="__X0" class="_0hi">
                     <div class="_con1">
+                       <li> <a href="javascript:void(0)" class= "closebtn">&times;</a></li>
                     <li > <a href="cute.html" class=" nav-act">Cute</a></li>
                     <li  > <a href="sweet.html" class=" nav-act" >Sweet</a></li>
                     <li > <a href="sad.html" class=" nav-act" >Sad</a></li>
                     <li > <a href="angry.html" class=" nav-act" >Angry</a></li>
-                    <input type="text" style="background-color: white ; width: 90%; height: 45px; margin-left: 8px; border-radius: 8px; border: 1px solid;" placeholder="Find something here......." >
+                    <input type="text" class="_search" placeholder="                                  Find something here......." >
                 </div>
                 </div>
                 <div class="topUp">
@@ -28,10 +28,25 @@
                         <li >  <a href="index.html" class=" nav-act" ><i class="fa fa-home" style="margin-left:-9px ; padding-right: 2px; " > </i>  Home</a></li>
                     </div>
                     <div>
-                       <i class="fa fa-bars right_" onclick="openNav()" > Menu</i>
+                <div> <i class="fa fa-bars right_  " onclick="myFunction()"  > Menu</i></div> 
                     </div>
 
-                </div>
+                </div><script> function myFunction() {
+                    document.getElementById("__X0").classList.toggle("_X_");
+                  }
+                  // Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.right_')) {
+    var dropdowns = document.getElementsByClassName("_0hi");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('_X_')) {
+        openDropdown.classList.remove('_X_');
+      }
+    }
+  }
+}</script>
                 <div id="navbar-nav" class="clear"> 
                     <li >  <a href="index.html" class=" nav-act active" ><i class="fa fa-home" style="margin-left:-15px ; padding-right: 5px; " > </i>  Home</a></li>
                     <li > <a href="cute.html" class=" nav-act">Cute</a></li>
@@ -39,78 +54,104 @@
                     <li > <a href="sad.html" class=" nav-act" >Sad</a></li>
                     <li > <a href="angry.html" class=" nav-act" >Angry</a></li>
                 </div>
-                <div id="cat2" >
-                    <input type="text"  placeholder="Find something here......." >
-                </div>
-            </nav>
-        </br></br><script>     function openNav() {
-            document.getElementById("myTopDown").style.height = "200px";
-          }
-          
-          function closeNav() {
-            document.getElementById("myTopDown").style.width = "0%";
-          }
- </script>
-        
+                <div id="cat2">
+                  <input type="text" type="text" class="search" placeholder="                Find something here......." >
+                </div> 
+                </nav>
+        </br></br>
         <div id="sponser"> <p> Advertisement</p></div>
    
         </br></br></br>
-
+<div class="next_page " id="Page_next">
+    <li> <a href="index.html" class=" meme _pa_ ">1</a></li> 
+       <li>  <a href="page2.html" class="meme ">2</a></li> 
+           <li>  <a href="page3.html" class="meme">3</a></li> 
+               <li>  <a href="page4.html" class="meme">4</a></li> 
+                   <li> <a href="page5.html" class="meme">5</a></li> 
+                       <li> <a href="page6.html" class="meme">6</a></li> 
+                           <li> <a href="page7.html" class="meme">7</a></li> 
+                               <li> <a href="page8.html" class="meme">8</a></li> 
+                                   <li> <a href="#" class="next"> next></a></li> 
+</div>
 
         <div class="filterPage">
             <div >
-                <img src="home/giphy.gif" alt="home/giphy.gif">
+                <a href="small_H/small.html">
+                    <img src="home/giphy.gif" alt="home/giphy.gif" >
+                </a>
                 <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy1.gif" alt="home/giphy1.gif" >
-                <div> <p> I'm a good student</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy1.gif" alt="home/giphy1.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy2.gif" alt="home/giphy2.gif" >
-                <div> <p> Come on</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy2.gif" alt="home/giphy2.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy3.gif"alt="home/giphy3.gif" >
-                <div> <p> WTF!</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy3.gif" alt="home/giphy3.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy4.gif" alt="home/giphy4.gif" >
-                <div> <p> Don't make noise!</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy4.gif" alt="home/giphy4.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy5.gif " alt="home/giphy5.gif" >
-                <div> <p> Come and study</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy5.gif" alt="home/giphy5.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy6.gif" alt="home/giphy6.gif" >
-                <div> <p> Snowing!</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy6.gif" alt="home/giphy6.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy7.gif" alt="home/giphy7.gif"  >
-                <div> <p> Hello world</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy7.gif" alt="home/giphy7.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy8.gif" alt="home/giphy8.gif" >
-                <div> <p> my fav snacks</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy8.gif" alt="home/giphy8.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy9.gif" alt="home/giphy9.gif" >
-                <div> <p> my bro and sis</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy9.gif" alt="home/giphy9.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy10.gif" alt="home/giphy10.gif" >
-                <div> <p> i begs u</p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy10.gif" alt="home/giphy10.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
             <div >
-                <img src="home/giphy11.gif" alt="home/giphy11.gif" >
-                <div> <p> play with me/p></div>
+                <a href="small_H/small.html">
+                    <img src="home/giphy11.gif" alt="home/giphy11.gif" >
+                </a>
+                <div> <p> Don't left me!</p></div>
             </div>
         </div>
         <div class="sponser_ads">
             <p> Advertisment</p>
         </div>
-        
+    </br></br></br>
 
 
     </body>
